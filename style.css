@@ -88,6 +88,10 @@ body {
     font-size: 12px;
     color: #504A9C;
 }
+.card-info-item a:hover{
+    color: hsl(224, 23%, 55%);
+    text-decoration: none;
+}
 .payment-btn{
     background-color: hsl(245, 75%, 52%);
     border-radius: 10px;
@@ -100,11 +104,19 @@ body {
     margin-top: 5%;
     box-shadow: 2px 15px 4px hsl(243, 76%, 95%);
 }
+.payment-btn:hover{
+    background-color:hsl(224, 23%, 55%);
+    cursor: pointer;
+}
 .cancel-txt{
     font-weight:900;
     font-size: 13px;
     margin-top: 8%;
     color:hsl(224, 23%, 55%);
+}
+.cancel-txt:hover{
+    cursor: pointer;
+    color: hsl(223, 47%, 23%);
 }
 @media (min-width:990px) {
     .card{
